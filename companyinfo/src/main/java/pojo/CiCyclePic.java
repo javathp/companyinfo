@@ -3,7 +3,7 @@ package pojo;
 import java.util.Date;
 
 public class CiCyclePic {
-    private int id;
+    private Byte id;
 
     private String name;
 
@@ -11,11 +11,11 @@ public class CiCyclePic {
 
     private Date updateTime;
 
-    public int getId() {
+    public Byte getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Byte id) {
         this.id = id;
     }
 

@@ -5,7 +5,7 @@ import pojo.CiCyclePic;
 import pojo.CiCyclePicExample;
 
 public interface CiCyclePicMapper {
-    int deleteByPrimaryKey(int id);
+    int deleteByPrimaryKey(Byte id);
 
     int insert(CiCyclePic record);
 
@@ -13,7 +13,7 @@ public interface CiCyclePicMapper {
 
     List<CiCyclePic> selectByExample(CiCyclePicExample example);
 
-    CiCyclePic selectByPrimaryKey(int i);
+    CiCyclePic selectByPrimaryKey(Byte id);
 
     int updateByPrimaryKeySelective(CiCyclePic record);
 

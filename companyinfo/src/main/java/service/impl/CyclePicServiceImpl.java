@@ -19,11 +19,8 @@ public class CyclePicServiceImpl implements CyclePicService {
 	@Autowired
 	private CiCyclePicMapper cyclePic;
 	
-	private List<CiCyclePic> selectByExample;
-	
 	public String getid() {
-		cyclePic.selectByPrimaryKey(1);
-		return "================";
+		return "================"+cyclePic.selectByPrimaryKey((byte)1);
 	}
 
 }
